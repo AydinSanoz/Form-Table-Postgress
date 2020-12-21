@@ -26,11 +26,13 @@ PhoneBookModel.init({
     },
     phoneNumber : {
         type : DataTypes.NUMBER
-    }
-
+    },
+    
 },{
     sequelize,
-
+    modelName :"PhoneBookModel",
+    tableName : "phonebook",
+    freezeTableName : true,
 })
 
 module.exports= PhoneBookModel
