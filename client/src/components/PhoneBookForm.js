@@ -4,7 +4,7 @@ import style from './styles';
 function PhoneBookForm(props) {
 	function handleSubmit(){
 		
-		console.log('merhab')
+		console.log('merhaba')
 	}
 	return (
 		<form style={style.form.container} action = "/" method= "post">
@@ -37,9 +37,9 @@ function PhoneBookForm(props) {
 			<input
 				style={style.form.inputs}
 				className="userPhone"
-				name="Phone"
-				type="phone"
-				id="Phone"
+				name="phoneNumber"
+				type="phoneNumber"
+				id="phoneNumber"
 				placeholder="Enter your Phone"
 				// required
 			/>
@@ -47,7 +47,7 @@ function PhoneBookForm(props) {
 			<input
 				style={style.form.submitBtn}
 				className="submitButton"
-				name="Phone"
+				name="submit"
 				type="submit"
 				value = "Add User"
 			/>
