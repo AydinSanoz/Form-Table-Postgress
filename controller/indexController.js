@@ -1,3 +1,4 @@
+
 exports.show_index = (req, res, next) => {
-	res.render('index', { title: 'Express jvnxclkvnlxc' });
+	res.json({index: { title: 'Express jvnxclkvnlxc'}});
 };
