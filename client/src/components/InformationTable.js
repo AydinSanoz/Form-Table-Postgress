@@ -11,16 +11,6 @@ const InformationTable = (props) => {
 		});
 	}, []);
 
-	console.log('d', phoneData);
-	/*
-    createdAt: "2020-12-21"
-    firstName: "Aydin"
-    id: 1
-    lastName: "Sanoz"
-    phoneNumber: 2132132112
-    updatedAt: "2020-12-21"
-    */
-
 	return (
 		<table style={style.table.container} className="informationTable">
 			<thead>

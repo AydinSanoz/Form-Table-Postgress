@@ -26,7 +26,7 @@ function PhoneBookForm(props) {
 				style={style.form.inputs}
 				className="userLastName"
 				name="lastName"
-				type="password"
+				type="text"
 				id="LastName"
 				placeholder="Enter your Last name"
 				// required
