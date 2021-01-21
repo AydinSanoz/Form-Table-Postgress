@@ -26,6 +26,7 @@ const InformationTable = (props) => {
 						<td style={style.table.tableCell}>{data.firstName}</td>
 						<td style={style.table.tableCell}>{data.lastName}</td>
 						<td style={style.table.tableCell}>{data.phoneNumber}</td>
+                        <a href= {`/api/delete/${data.id}`} >Delete</a>
 					</tr>
 				</tbody>
 			))}

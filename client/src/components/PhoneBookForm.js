@@ -2,12 +2,8 @@ import React from 'react';
 import style from './styles';
 
 function PhoneBookForm(props) {
-	function handleSubmit(){
-		
-		console.log('merhaba')
-	}
 	return (
-		<form style={style.form.container} action = "/" method= "post">
+		<form style={style.form.container} action = "/api/add" method= "post">
 			<label>First Name :</label>
 			<br />
 			<input

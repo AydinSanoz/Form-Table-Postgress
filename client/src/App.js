@@ -2,14 +2,10 @@ import PhoneBookForm from './components/PhoneBookForm'
 import InformationTable from './components/InformationTable'
 import style from './components/styles'
 import code from './assets/codeAndcode.jpeg'
-import {useState} from 'react'
+
 
 
 function App() {
-  const [phoneData, setPhoneData] = useState([])
-
-  
-
   return (
     <section style = {style.section}>
       <img style = {style.cw} src = {code} alt = 'codeTeam.jpeg'/>
